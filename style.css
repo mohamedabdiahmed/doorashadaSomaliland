@@ -101,3 +101,25 @@ body{
     border-radius:10px;
 
 } 
+
+@media(max-width:768px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        min-height: 100vh;
+        background-image: url(Election.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+   .Title{
+    text-align: center;
+    font-size: 20px;
+   }
+   pre{
+    text-align: center;
+    font-size: 20px;
+   }
+}
