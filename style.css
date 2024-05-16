@@ -65,7 +65,16 @@ body{
     color:white;    
 }
 
+.head{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .image img{
+    width:100px; 
+      
+}
+.flag img{
     width:100px; 
       
 }
